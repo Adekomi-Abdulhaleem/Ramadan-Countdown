@@ -30,7 +30,7 @@ function tellTime() {
    var hi = 11 - h;
    var mi = 60 - m;
    var si = 60 - s;
-   var daysLeft = 24 - dat;
+   var daysLeft = 23 - dat;
    var time = h + ":" + m + ":" + s + " " + session;
    var datings = dat + "/" + mon + "/" + ye;
    document.getElementById("countDays").innerText = daysLeft;
